@@ -17,39 +17,38 @@
   opacity: 0.4;
 }
 
-#login-form {
+.login-form {
   display: flex;
   flex-direction: column;
   margin: 0px 30px;
 }
 
-#login-form input {
+.login-form__input {
   border: none;
   padding: 15px 0px;
   font-size: 18px;
   margin-bottom: 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 }
 
-#login-form input:not([type="submit"]) {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  transition: border-color 0.3s ease-in-out;
+.login-form__input:focus {
+  border-color: var(--yellow);
+  transition: border-color 0.5 ease-in-out;
 }
 
-#login-form input::placeholder {
+.login-form__input::placeholder {
   color: rgba(0, 0, 0, 0.4);
 }
-#login-form input:focus {
-  border-color: var(--yellow);
-}
 
-#login-form input[type="submit"] {
+.login-form input[type="submit"] {
+  border: none;
   background-color: var(--yellow);
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 8px;
 }
 
-#login-form a {
+.login-form__a {
   text-align: center;
   font-size: 13px;
 }
