@@ -14,18 +14,6 @@
   border-radius: 25px;
 }
 
-.user-component__title {
-  font-size: 23px;
-  font-weight: 600;
-  margin-left: 15px;
-}
-
-.user-component__subtitle {
-  margin-top: 8px;
-  opacity: 0.5;
-  font-size: 18px;
-}
-
 .user-component__avatar--xl {
   width: 80px;
   height: 80px;
@@ -38,10 +26,31 @@
   border-radius: 15px;
 }
 
+.user-component__title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: 15px;
+  color: black;
+}
+
+.user-component__subtitle {
+  margin: 8px 15px;
+  opacity: 0.5;
+  font-size: 15px;
+}
+
 .user-component__title--not-bold {
   font-weight: 400;
 }
 
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component__time {
+  display: block;
+  margin-bottom: 8px;
 }
