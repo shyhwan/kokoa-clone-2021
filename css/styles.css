@@ -9,12 +9,14 @@
 @import "components/badge.css";
 @import "components/check-point.css";
 @import "components/icon-row.css";
+@import "components/alt-screen-header.css";
 
 /* Screens */
 @import "screen/login.css";
 @import "screen/friends.css";
 @import "screen/finde.css";
 @import "screen/more.css";
+@import "screen/setting.css";
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
