@@ -6,11 +6,26 @@
   padding: var(--horizontal-space);
 }
 
-.alt-header__column h1 {
+.alt-header__column .alt-header__column h1 {
   font-size: 29px;
   font-weight: 600;
 }
 
 .alt-header__column {
   margin-top: 15px;
+  width: 33%;
+  font-size: 22px;
+}
+
+.alt-header__column span:last-child {
+  margin-left: 17px;
+}
+
+.alt-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.alt-header__column:nth-child(2) {
+  text-align: center;
 }
